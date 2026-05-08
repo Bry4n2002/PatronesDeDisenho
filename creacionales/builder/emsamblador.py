@@ -1,3 +1,4 @@
+# Director es el encargado de construir el objeto utilizando el builder
 from builder_computador import BuilderComputadorGaming,BuilderComputadorOficina
 
 
