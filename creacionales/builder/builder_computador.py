@@ -1,5 +1,11 @@
-from computador import Computador
+# Builder es un patrón de diseño creacional que permite construir objetos complejos 
+# paso a paso.
+#  Se utiliza para separar la construcción de un objeto de su representación, 
+# lo que permite crear diferentes representaciones del mismo proceso de construcción. 
 
+
+from computador import Computador
+# Builder es el encargado de construir el objeto paso a paso
 class BuilderComputador:
     def __init__(self):
         self.computador = Computador()

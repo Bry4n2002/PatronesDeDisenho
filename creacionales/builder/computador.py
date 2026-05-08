@@ -1,3 +1,5 @@
+# Objeto complejo que se va a construir
+
 class Computador:
     def __init__(self):
         self.procesador = None
