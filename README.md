@@ -45,20 +45,20 @@ cd PatronesDeDisenho
 ```
 PatronesDeDisenho/
 ├── creacionales/
-│   ├── singleton.py
-│   ├── factory.py
-│   └── builder.py
+│   ├── singleton
+│   ├── factory
+│   └── builder
 ├── estructurales/
-│   ├── adapter.py
-│   ├── decorator.py
-│   ├── facade.py
-│   └── proxy.py
+│   ├── adapter
+│   ├── decorator
+│   ├── facade
+│   └── proxy
 ├── comportamiento/
-│   ├── observer.py
-│   ├── strategy.py
-│   ├── command.py
-│   ├── state.py
-│   ├── template_method.py
+│   ├── observer
+│   ├── strategy
+│   ├── command
+│   ├── state
+│   ├── template_method
 └── README.md
 ```
 
