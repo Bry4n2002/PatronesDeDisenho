@@ -4,21 +4,19 @@ Un repositorio educativo que implementa y explica los principales patrones de di
 
 ## Descripción
 
-Este proyecto contiene ejemplos prácticos de los patrones de diseño más utilizados en la industria del software. Cada patrón incluye su implementación en Python, explicaciones claras y casos de uso reales.
+Este proyecto contiene ejemplos prácticos de los **patrones de diseño más utilizados y relevantes** en la industria del software. Cada patrón incluye su implementación en Python, explicaciones claras y casos de uso prácticos.
+
+> **Nota**: Este repositorio se enfoca en los patrones de diseño más comúnmente usados en proyectos reales. Se omiten patrones menos frecuentes o situaciones muy específicas para mantener el contenido didáctico y aplicable.
 
 ## Patrones Incluidos
 
 ### Patrones Creacionales
 - **Singleton**: Garantiza una única instancia de una clase
 - **Factory Method**: Crea objetos sin especificar sus clases concretas
-- **Abstract Factory**: Crea familias de objetos relacionados
 - **Builder**: Construye objetos complejos paso a paso
-- **Prototype**: Crea objetos clonando un prototipo existente
 
 ### Patrones Estructurales
 - **Adapter**: Adapta interfaces incompatibles
-- **Bridge**: Desvincula una abstracción de su implementación
-- **Composite**: Compone objetos en estructuras de árbol
 - **Decorator**: Añade comportamiento dinámicamente
 - **Facade**: Proporciona una interfaz simplificada
 - **Proxy**: Proporciona un sustituto de otro objeto
@@ -29,12 +27,6 @@ Este proyecto contiene ejemplos prácticos de los patrones de diseño más utili
 - **Command**: Encapsula solicitudes como objetos
 - **State**: Permite cambiar el comportamiento según el estado
 - **Template Method**: Define el esqueleto de un algoritmo
-- **Iterator**: Accede secuencialmente a elementos
-- **Chain of Responsibility**: Pasa solicitudes a lo largo de una cadena
-- **Interpreter**: Define una gramática para un lenguaje
-- **Mediator**: Define un objeto que encapsula cómo interactúan los objetos
-- **Memento**: Captura y externaliza el estado de un objeto
-- **Visitor**: Representa una operación a realizar sobre elementos
 
 ## Requisitos
 
@@ -55,13 +47,9 @@ PatronesDeDisenho/
 ├── creacionales/
 │   ├── singleton.py
 │   ├── factory.py
-│   ├── abstract_factory.py
-│   ├── builder.py
-│   └── prototype.py
+│   └── builder.py
 ├── estructurales/
 │   ├── adapter.py
-│   ├── bridge.py
-│   ├── composite.py
 │   ├── decorator.py
 │   ├── facade.py
 │   └── proxy.py
@@ -71,12 +59,6 @@ PatronesDeDisenho/
 │   ├── command.py
 │   ├── state.py
 │   ├── template_method.py
-│   ├── iterator.py
-│   ├── chain_of_responsibility.py
-│   ├── interpreter.py
-│   ├── mediator.py
-│   ├── memento.py
-│   └── visitor.py
 └── README.md
 ```
 
